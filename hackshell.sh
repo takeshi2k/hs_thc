@@ -2052,11 +2052,11 @@ hs_info
 [ -n "$_HSURLORIGIN" ] && HS_WARN "Better use: ' ${CDC}eval \"\$(curl -SsfL ${_HSURL})\"${CDM}'${CN}"
 
 ### Check for obvious loots
-lootlight
+#lootlight                                                      #HZ_WS_
 
-# unset all functions that are no longer needed.
-unset -f hs_init hs_init_alias hs_init_dl hs_init_shell
-unset SSH_CONNECTION SSH_CLIENT _HSURLORIGIN
+# unset all functions that are no longer needed.              #HZ_WS_
+# unset -f hs_init hs_init_alias hs_init_dl hs_init_shell     #HZ_WS_
+# unset SSH_CONNECTION SSH_CLIENT _HSURLORIGIN                #HZ_WS_
 
 # Do exit with TRUE in case parent shell ues 'set -e':
-:
+#:              #HZ_WS_
