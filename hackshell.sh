@@ -2046,7 +2046,7 @@ echo -e ">>> Tweaking environment variables to log less     ${CN}[${CDG}DONE${CN
 echo -e ">>> Creating aliases to make commands log less     ${CN}[${CDG}DONE${CN}]"
 echo -e ">>> ${CG}Setup complete. ${CF}No data was written to the filesystem${CN}"
 
-hs_info
+# hs_info
 
 # Warning if thc.org is used
 [ -n "$_HSURLORIGIN" ] && HS_WARN "Better use: ' ${CDC}eval \"\$(curl -SsfL ${_HSURL})\"${CDM}'${CN}"
